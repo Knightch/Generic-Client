@@ -1,0 +1,5 @@
+<button (click)="startRequests()">Start Requests</button>
+<button (click)="stopRequests()">Stop Requests</button>
+<div *ngFor="let responseData of responseArray">
+  Response: {{ responseData | json }}
+</div>
